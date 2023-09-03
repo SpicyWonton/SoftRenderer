@@ -25,7 +25,7 @@ cmake --build .
 ```
 这样会在build目录下生成可执行文件，然后将libs\SDL2-2.0.20\x86_64-w64-mingw32\bin\SDL2.dll复制到可执行文件同一个目录下。
 ## 使用方法
-直接执行cmake-build-release-mingw中的可执行文件，键位如下：
+直接执行cmake-build-release-mingw中的可执行文件，键位如下：  
 WASD    移动摄像头  
 L   线框模式  
 F   冯氏着色  
