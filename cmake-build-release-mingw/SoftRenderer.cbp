@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SoftRenderer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SoftRenderer">
+				<Option output="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/SoftRenderer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/libs/SDL2-2.0.20/x86_64-w64-mingw32/include/SDL2"/>
+					<Add directory="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include"/>
+					<Add directory="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/libs"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 SoftRenderer"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SoftRenderer/fast">
+				<Option output="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/SoftRenderer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/libs/SDL2-2.0.20/x86_64-w64-mingw32/include/SDL2"/>
+					<Add directory="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include"/>
+					<Add directory="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/libs"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 SoftRenderer/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/aabb.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/camera.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/frame_buffer.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/global_config.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/light.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/math_util.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/matrix.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/mesh.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/pipeline.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/scene.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/shader.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/shadow_map.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/skybox.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/texture.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/vector.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/vertex.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/include/window.h">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/src/aabb.cpp">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/src/camera.cpp">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/src/frame_buffer.cpp">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/src/light.cpp">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/src/main.cpp">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/src/mesh.cpp">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/src/pipeline.cpp">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/src/scene.cpp">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/src/shader.cpp">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/src/shadow_map.cpp">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/src/skybox.cpp">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/src/texture.cpp">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/src/window.cpp">
+			<Option target="SoftRenderer"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake/modules/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

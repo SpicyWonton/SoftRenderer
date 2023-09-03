@@ -1,0 +1,14 @@
+scene0
+//model information
+m 1
+m01 teapot azulejos
+pos 0.0 0.0 -6.0
+rot 1.0 0.0 0.0 90.0
+sca 1.0 1.0 1.0
+//light information
+l 1
+l01 dl
+dir 1.0 0.0 0.0
+//skybox
+s
+rainbow

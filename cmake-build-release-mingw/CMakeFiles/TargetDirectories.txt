@@ -1,0 +1,3 @@
+C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/CMakeFiles/SoftRenderer.dir
+C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/CMakeFiles/edit_cache.dir
+C:/Users/huyi/Documents/Codes/CPP/SoftRenderer/cmake-build-release-mingw/CMakeFiles/rebuild_cache.dir
